@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .grid-content{
+            display: grid;
+            grid-template-columns: repeat(1,4);
+            grid-template-areas: 
+            "one two three three"
+            "four five five six";
+            gap: 6px;
+        }
+
+        .item{
+            padding: 20px;
+            background-color: #00ddff;
+            border: 1px solid #808080;
+            font-weight: bold;
+            align-items: center;
+        }
+        .item-1{grid-area: one;}
+        .item-2{grid-area: two;}
+        .item-3{grid-area: three;}
+        .item-4{grid-area: four;}
+        .item-5{grid-area: five;}
+        .item-6{grid-area: six;}
+
+
+
+
+
+
+
+        
+        .grid-content.item:first-child{background-color: #095757;}
+        .item:nth-child(3){background-color: #ffe4c4;}
+        .item:last-child(5){background-color: #a52a2a;}
+        .item:hover(){background-color: #406e6e;}
+    </style>
+</head>
+<body>
+    <div class="grid-content">
+         <div class="item item-1"><img src="images/download (1).jpg"  width="200px" height="250px"/></div>
+         <div class="item item-2"><img src="images/download (2).jpg"  width="200px" height="250px"/></div>
+         <div class="item item-3"><img src="images/download.jpg"  width="200px" height="250px"/></div>
+         <div class="item item-4"><img src="images/closeup-shot-bmw-car-hood-600nw-2648146817.webp " width="200px" height="250px"/></div>
+         <div class="item item-5"><img src="images/images.jpg"  width="200px" height="250px"/></div>
+         <div class="item item-6"><img src="images/01JGNSJGBZ2PT34ZW8A0B0SH5M-webp.webp"  width="200px" height="250px"/></div>
+
+    </div>
+    
+</body>
+</html>
