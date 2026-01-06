@@ -1,106 +1,146 @@
-<html lang="en"><head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dior</title>
     <style>
-        
-        .heading-1{
+        .heading-1 {
             align-items: center;
             display: flex;
             flex-direction: column;
             margin: 0%;
         }
-       .item-1{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-       
-       }
-       .item-2{
-         display: flex;
-    flex-direction: row;
-    gap: 6px;
 
-       }
-       .for-1{
-         width: 25%;
+        .item-1 {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
 
-       }
-       .for-2{ 
-        width: 30%;
-    }
-    .for-3{
-         width: 20%;
-    }
-    .for-4{
-         width: 20%;
-    }
-   
+        }
 
+        .item-2 {
+            display: flex;
+            flex-direction: row;
+            gap: 6px;
 
-    .contenar-1{
-        display: grid;
-        grid-template-columns: repeat(1,4);
-        grid-template-areas:
-         "one two three three"
-         "one four five five"; 
-         cursor: pointer;  
-         background-color: #333a29;
-         margin: 0px;
-    }
-    .item{
-        padding: 20px;
-        background-color:#fa8d8d;
-        border: 1px solid #293b0f;
-        font-weight:bold ;
-        align-items: center;
-        border-bottom-right-radius: 4rem;
-        border-top-left-radius: 4rem;
- }
-    .pro-1{grid-area: one;
-    margin: 0%;
-padding: 0%;}
-    .pro-2{grid-area: two;
-    margin: 0%;
-padding: 0%;
-border-top-left-radius:2rem ;}
-    .pro-3{grid-area: three;}
-    .pro-4{grid-area: four;}
-    .pro-5{grid-area: five;}
+        }
 
-     .item:first-child{background-color: #fa8d8d;}
-     .item:nth-child(4){background-color: #fa8d8d;}
-     .item:nth-child(3){background-color: #fa8d8d;}
-     .item:hover{background-color: rgb(25, 205, 211);}
+        .for-1 {
+            width: 25%;
 
-     .heading-2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #293b0f;
-     }
-     .video-1{margin: 0px;
-       
-    border-top-left-radius: 2rem;
-border-top-right-radius: 2rem;}
-     .heading-3{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: #f3b034;
-        
-        font-size: 40px;
-     }
-     .contact{
-        display: flex;
-        flex-direction: column;
-        align-items:center ;
-        background-color: #2d3738;
-     }
+        }
+
+        .for-2 {
+            width: 30%;
+        }
+
+        .for-3 {
+            width: 20%;
+        }
+
+        .for-4 {
+            width: 20%;
+        }
 
 
-     .sub{
-         background-color: #4CAF50; /* Green */
+
+        .contenar-1 {
+            display: grid;
+            grid-template-columns: repeat(1, 4);
+            grid-template-areas:
+                "one two three three"
+                "one four five five";
+            cursor: pointer;
+            background-color: #333a29;
+            margin: 0px;
+        }
+
+        .item {
+            padding: 20px;
+            background-color: #fa8d8d;
+            border: 1px solid #293b0f;
+            font-weight: bold;
+            align-items: center;
+            border-bottom-right-radius: 4rem;
+            border-top-left-radius: 4rem;
+        }
+
+        .pro-1 {
+            grid-area: one;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .pro-2 {
+            grid-area: two;
+            margin: 0%;
+            padding: 0%;
+            border-top-left-radius: 2rem;
+        }
+
+        .pro-3 {
+            grid-area: three;
+        }
+
+        .pro-4 {
+            grid-area: four;
+        }
+
+        .pro-5 {
+            grid-area: five;
+        }
+
+        .item:first-child {
+            background-color: #fa8d8d;
+        }
+
+        .item:nth-child(4) {
+            background-color: #fa8d8d;
+        }
+
+        .item:nth-child(3) {
+            background-color: #fa8d8d;
+        }
+
+        .item:hover {
+            background-color: rgb(25, 205, 211);
+        }
+
+        .heading-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #293b0f;
+        }
+
+        .video-1 {
+            margin: 0px;
+
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+        }
+
+        .heading-3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #f3b034;
+
+            font-size: 40px;
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #2d3738;
+        }
+
+
+        .sub {
+            background-color: #4CAF50;
+            /* Green */
             color: #65f40c;
             padding: 12px 24px;
             font-size: 16px;
@@ -112,85 +152,86 @@ border-top-right-radius: 2rem;}
             flex-direction: column;
             align-items: center;
             margin: 10px;
-     }
-      .sub:hover {
+        }
+
+        .sub:hover {
             background-color: #45a049;
             transform: scale(1.05);
         }
-         .sub:active {
+
+        .sub:active {
             transform: scale(0.95);
         }
+    </style>
 
-
-
-
-
-
-
-     </style>
-    
-     </script>
+    </script>
 </head>
+
 <body style="margin: 0%;
 padding: 0%;">
     <div>
         <h1 class="heading-1">dior</h1>
-        <b  class="heading-3" >luxury</b>
-        
+        <b class="heading-3">luxury</b>
+
         <div class="item-1">
             <img src="images/d5.avif" width="50%" height="auto">
             <div class="INFO">
-                <p>Jonathan Anderson's Spring Summer 2026 collection explores Dior's heritage with empathy and wit. Pieces from the archive are reinterpreted for now, and the codes of the House are refreshed. </p>
+                <p>Jonathan Anderson's Spring Summer 2026 collection explores Dior's heritage with empathy and wit.
+                    Pieces from the archive are reinterpreted for now, and the codes of the House are refreshed. </p>
 
             </div>
-            <div class="item-2" 
-   
-">
-                <img class="for-1" src="images/d1.jpg"
-   
-">
-                <img class="for-2" src="images/d2.png" 
-   
-">
-                <img class="for-3" src="images/d3.jpg" 
-   
-">
-                <img class="for-4" src="images/d4.webp"
-   
-">
+            <div class="item-2" ">
+                <img class=" for-1" src="images/d1.jpg" ">
+                <img class=" for-2" src="images/d2.png" ">
+                <img class=" for-3" src="images/d3.jpg" ">
+                <img class=" for-4" src="images/d4.webp" ">
             </div>
 
         </div>
 
 
     </div>
-    <div class="video-1">
-       <video  class="item-3" loop autoplay="" src="videos/v2.mp4" width="100%" height="auto" ></video>
-    </div>
-       <div class="heading-2">
-        <h1>shops</h1>
-       </div>
-    </div>
-    <div class="contenar-1">
-        <div class="item pro-1"><img src="images/lv.webp" width="100%" height="auto"> <p>Scarves · LV Medaillon · Flight Mode. LV Medallion Scarf. ₹55,500.00 · Flight Mode. LV Medallion Scarf. ₹52,500.00 · Flight Mode. LV Medallion Scarf. ₹55,500.00</p></div>
-        <div class="item pro-2"><video loop autoplay src="videos/v3.mp4" width="95%" height="auto"></div>
+    <div class=" video-1">
+                <video class="item-3" loop autoplay="" src="videos/v2.mp4" width="100%" height="auto"></video>
+            </div>
+            <div class="heading-2">
+                <h1>shops</h1>
+            </div>
+        </div>
+        <div class="contenar-1">
+            <div class="item pro-1"><img src="images/lv.webp" width="100%" height="auto">
+                <p>Scarves · LV Medaillon · Flight Mode. LV Medallion Scarf. ₹55,500.00 · Flight Mode. LV Medallion
+                    Scarf. ₹52,500.00 · Flight Mode. LV Medallion Scarf. ₹55,500.00</p>
+            </div>
+            <div class="item pro-2"><video loop autoplay src="videos/v3.mp4" width="95%" height="auto"></div>
 
 
-        <div class="item pro-3"><img src="images/gucci bag.webp" width="50%" height="auto"><p>Product Details
-Style ‎853971 AAF2H 7645
-Continuing the spirit of reinvention, Gucci Giglio reinterprets the House's emblematic GG motif with sumptuous materials and rich colors that speak to the season. Crafted in soft glossy leather, this capacious bag features the Web trim, and is complete with a detachable pouch.</p></div>
-        <div class="item pro-4"><img src="images/WMNS+AIR+JORDAN+1+LOW.avif" width="100%" height="auto"><p>Air Jordan 1 Low SE
-Shoes
-MRP : ₹ 9 295.00
-Inclusive of all taxes
-(Also includes all applicable duties)</p></div>
-        <div class="item pro-5"><img src="images/prada.webp" width="100%" height="auto"><p>Acetate sunglasses with a contemporary, geometric design. The large front with bold rims is paired with faceted temples enhanced by the distinctive three-dimensional workmanship decorated with the Prada lettering logo. Several color variations feature a combination of acetate layers highlighted by contrasting colors on the rims. </p></div>
+            <div class="item pro-3"><img src="images/gucci bag.webp" width="50%" height="auto">
+                <p>Product Details
+                    Style ‎853971 AAF2H 7645
+                    Continuing the spirit of reinvention, Gucci Giglio reinterprets the House's emblematic GG motif with
+                    sumptuous materials and rich colors that speak to the season. Crafted in soft glossy leather, this
+                    capacious bag features the Web trim, and is complete with a detachable pouch.</p>
+            </div>
+            <div class="item pro-4"><img src="images/WMNS+AIR+JORDAN+1+LOW.avif" width="100%" height="auto">
+                <p>Air Jordan 1 Low SE
+                    Shoes
+                    MRP : ₹ 9 295.00
+                    Inclusive of all taxes
+                    (Also includes all applicable duties)</p>
+            </div>
+            <div class="item pro-5"><img src="images/prada.webp" width="100%" height="auto">
+                <p>Acetate sunglasses with a contemporary, geometric design. The large front with bold rims is paired
+                    with faceted temples enhanced by the distinctive three-dimensional workmanship decorated with the
+                    Prada lettering logo. Several color variations feature a combination of acetate layers highlighted
+                    by contrasting colors on the rims. </p>
+            </div>
 
 
-    </div>
-<hr>
+        </div>
+        <hr>
 
-<div style="display: flex;
+        <div style="display: flex;
 flex-direction: row;
 gap: 2%;
 align-items: center;
@@ -202,64 +243,59 @@ border-top-left-radius: 1rem;
 border-top-right-radius: 1rem;
 color: #f0ffff;
 ">
-    <label for="first-name">name:-</label>
-    <input name="name"
-     placeholder="enter name"
-      class="phone-number" 
-      type="tel" 
-      min="10"
-       max="10"
-        />
-    <br><br/>
+            <label for="first-name">name:-</label>
+            <input name="name" placeholder="enter name" class="phone-number" type="tel" min="10" max="10" />
+            <br><br />
 
-    <label for="item">prodact:-</label>
-    <select name="prodact">
-        <option value="select pickup item">ALL</option>
-        <option value="dior">bag</option>
-        <option value="dior shoes">shoes</option>
-        <option value="dior perfume">perfume</option>
-        <option value="dior watch">watch</option>
-    </select>
-    <label for="paymant">payment:-</label>
-    <select name="mode of payment">
-        <option value="ptm">PTM</option>
-        <option value="online paymant">online payment</option>
-        <option value="COD">COD</option>
-        <option value="EMI">EMI</option>
-        <option value="creadit card">creadit card</option>
-    </select>
-    <br><br/>
-    <label for="location">location:-</label>
-    <select name="place">
-    <option value="india">india</option>
-    <option value="us">america</option>
-    <option value="france">france</option>
-    <option value="japan">japan</option>
-    <option value="russia">russia</option>
-    <option value="australia">australia</option>
-        </select>
-    </label>
-    </div>
-    <div class="sub">
-        <button>submit</button>
-    </div>
+            <label for="item">prodact:-</label>
+            <select name="prodact">
+                <option value="select pickup item">ALL</option>
+                <option value="dior">bag</option>
+                <option value="dior shoes">shoes</option>
+                <option value="dior perfume">perfume</option>
+                <option value="dior watch">watch</option>
+            </select>
+            <label for="paymant">payment:-</label>
+            <select name="mode of payment">
+                <option value="ptm">PTM</option>
+                <option value="online paymant">online payment</option>
+                <option value="COD">COD</option>
+                <option value="EMI">EMI</option>
+                <option value="creadit card">creadit card</option>
+            </select>
+            <br><br />
+            <label for="location">location:-</label>
+            <select name="place">
+                <option value="india">india</option>
+                <option value="us">america</option>
+                <option value="france">france</option>
+                <option value="japan">japan</option>
+                <option value="russia">russia</option>
+                <option value="australia">australia</option>
+            </select>
+            </label>
+        </div>
+        <div class="sub">
+            <button>submit</button>
+        </div>
 
-<div class="contact">
-    <a href="/services.html">services page</a>
-    <hr>
-    <a href="/bat.html">bat page</a>
-    <hr>
-    <a href="tel:9832622135">call mayan</a>
-    <hr>
-    <a href="mail:mayandey@gmail.com">email mayan</a>
-</div>
- 
+        <div class="contact">
+            <a href="/services.html">services page</a>
+            <hr>
+            <a href="/bat.html">bat page</a>
+            <hr>
+            <a href="tel:9832622135">call mayan</a>
+            <hr>
+            <a href="mail:mayandey@gmail.com">email mayan</a>
+        </div>
 
 
 
-    
-    
+
+
+
 
 
 </body>
+
 </html>
