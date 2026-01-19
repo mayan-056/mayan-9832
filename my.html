@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gucci</title>
+    <style>
+        
+        .AB{
+            margin: 0;
+            padding: 0;
+            background-color: #092701;
+        }
+        .first{
+            background-color: rgb(0, 64, 5);
+            padding: 1rem;
+
+        }
+        .first ul{
+            list-style-type: none;
+            margin: 0%;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        .first ul li{
+            display: inline;
+
+        }
+        .first ul li a{
+            color: #ffffff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: block;
+        }
+        nav ul li a:hover{
+            background-color: #91f877;
+            border-radius: 3rem;
+        }
+
+       
+        .back-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 100px;
+            color:wheat ;
+            margin: 0%;
+            padding: 0%;
+
+            
+        }
+        .cantainer{
+            display: grid;
+            grid-template-columns: repeat(1,4);
+            grid-template-areas: 
+            "one two  three four"
+            "five two  six six";
+        }
+        .item{
+            padding: 60px;
+            background-color: #0d3a02;
+            border: 1px solid green;
+            font: bold;
+            align-items:center ;
+            border-bottom-right-radius:  3rem;
+            border-top-left-radius: 3rem ;
+        }
+            .g-1{ grid-area: one;
+            margin: 0%;
+        padding: 0;}
+            .g-2{ grid-area: two;
+            margin: 0%;
+        padding:0;}
+            .g-3{ grid-area: three;
+            margin: 0%;
+        padding: 0;}
+            .g-4{ grid-area: four;
+            margin: 0%;
+        padding: 0;}
+            .g-5{ grid-area: five;
+            margin: 0%;
+        padding: 0%;}
+            .g-6{ grid-area: six;
+            margin: 0%;
+        padding: 0%;}
+
+            .cantainer:first-child{background-color: #30aa0e;}
+            .item:hover{background-color: #5bd539;}
+            .heading-2{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 20px;
+                color: wheat;
+            }
+            .picture{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 0%;
+                padding: 0%;
+                
+                gap: 30px;
+            }
+          
+
+    </style>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body class="AB">
+    <div class="first">
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <hr>
+   
+    <div class="back-1">
+       <p><b>gucci</b></p>
+    </div>
+    <div class="cantainer">
+        <div class="item g-1"><img src="images/gi-3.avif" width="100%" height="auto" /></div>
+        <div class="item g-2"><img src="images/gi-5.jpg"   width="100%" height="auto"></div>
+        <div class="item g-3"><img src="images/gi-1.jpg" width="100%" height="auto"/></div>
+        <div class="item g-4"><img src="images/gi-2.jpg" width="85%" height="auto"/></div>
+        <div class="item g-5"><img src="images/gi-4.avif" height="auto" width="50%"/></div>
+        <div class="item g-6"><video loop autoplay muted src="videos/Parisian Memories with the Gucci Softbit.mp4" width="50%" height="auto"></video></div>
+        
+    </div>
+    <hr>
+    <div>
+        <video muted loop autoplay src="videos/The New Gucci Interlocking Watch Collection.mp4" width="100%" height="auto"></video>
+    </div>
+    <div class="heading-2">
+    <p>Get exclusive updates on the collection's launch, personalized communication and the House's latest news.</p>
+</div>
+<div class="picture">
+    <img src="images/ig-3.webp" width="14%" height="auto"/>
+    <img src="images/ig-4.webp" width="19%" height="auto"/>
+    <img src="images/ig-5.jpg" width="19%" height="auto"/>
+    <img src="images/ig-1.avif" width="19%" height="auto"/>
+    <img src="images/ig-2.avif" width="19%" height="auto"/>
+</div>
+<div style="display: flex;
+flex-direction: row;
+align-items: center;
+color: antiquewhite;
+gap: 6px;
+margin: 2%;"
+ >
+    <label for="first-name">name</label>
+    <input name="name"
+    placeholder="enter name" />
+    <br><br/>
+
+<label for="product">product</label>
+<select name="product">
+<option value="bag">Bag</option>
+<option value="shoes">Shoes</option>
+<option value="belt">Belt</option>
+<option value="t-shert">T-shart</option>
+</select>
+<br><br/>
+<label for="item-2">location</label>
+<select name="">
+<option value="india">india</option>
+<option value="Dubai">Dubai</option>
+<option value="japan">Japan</option>
+<option value="brazil">Brazil</option>
+<option value="USA">USA</option>
+</select>
+<br><br/>
+
+
+
+</div>
+</body>
+</html>

@@ -9,6 +9,8 @@
             display: flex;
             flex-direction: column;
             margin: 0%;
+            text-align: center;
+           
         }
        .item-1{
         align-items: center;
@@ -33,7 +35,7 @@
          width: 20%;
     }
     .for-4{
-         width: 20%;
+         width: 24%;
     }
    
 
@@ -64,9 +66,16 @@ padding: 0%;}
     margin: 0%;
 padding: 0%;
 border-top-left-radius:2rem ;}
-    .pro-3{grid-area: three;}
-    .pro-4{grid-area: four;}
-    .pro-5{grid-area: five;}
+    .pro-3{grid-area: three;
+    margin: 0%;
+padding: 0%;}
+    .pro-4{grid-area: four;
+    margin: 0%;
+padding: 0%;}
+    .pro-5{grid-area: five;
+    margin: 0%;
+    padding: 0%;
+}
 
      .item:first-child{background-color: #fa8d8d;}
      .item:nth-child(4){background-color: #fa8d8d;}
@@ -78,6 +87,8 @@ border-top-left-radius:2rem ;}
         flex-direction: column;
         align-items: center;
         background-color: #293b0f;
+        color: #f1eded;
+      
      }
      .video-1{margin: 0px;
        
@@ -111,14 +122,19 @@ border-top-right-radius: 2rem;}
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 10px;
+            margin: 8px;
      }
       .sub:hover {
-            background-color: #45a049;
+            background-color: #ffd104;
             transform: scale(1.05);
         }
          .sub:active {
             transform: scale(0.95);
+        }
+        .f1{
+          
+            background-color: #fa8d8d;
+
         }
 
 
@@ -131,7 +147,7 @@ border-top-right-radius: 2rem;}
     
      </script>
 </head>
-<body style="margin: 0%;
+<body class="f1" style="margin: 0%;
 padding: 0%;">
     <div>
         <h1 class="heading-1">dior</h1>
@@ -164,6 +180,7 @@ padding: 0%;">
 
 
     </div>
+    <hr>
     <div class="video-1">
        <video  class="item-3" loop autoplay="" src="videos/v2.mp4" width="100%" height="auto" ></video>
     </div>
@@ -212,8 +229,8 @@ color: #f0ffff;
         />
     <br><br/>
 
-    <label for="item">prodact:-</label>
-    <select name="prodact">
+    <label for="item">product:-</label>
+    <select name="product">
         <option value="select pickup item">ALL</option>
         <option value="dior">bag</option>
         <option value="dior shoes">shoes</option>
@@ -253,13 +270,8 @@ color: #f0ffff;
     <hr>
     <a href="mail:mayandey@gmail.com">email mayan</a>
 </div>
+
  
-
-
-
-    
-    
-
 
 </body>
 </html>
