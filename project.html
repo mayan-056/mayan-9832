@@ -7,6 +7,7 @@
     <style>
         .body{
             margin: 0%;
+            background-color: #03034a;
         }
         .contaner-1{
             background-color: #ffffff;
@@ -15,8 +16,11 @@
             padding: 0%;
         }
         .heading-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             color: #03034a;
-            font-size: 30px;
+            font-size: 50px;
         }
         .contaner-2{
             background-color: #03034a;
@@ -26,21 +30,21 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
-            gap: 50%;
+            gap: 20%;
         }
         .heading-2{
             color: #f5e0e0;
             font-size: 100px;
-           margin-right: 20px;
+           margin-right: 30px;
             margin: 0%;
-            gap: 50%;
+            gap: 30%;
         }
         .picture{
           
         }
         .ti{
             color: #ffffff;
-         margin-left: 20px;
+         margin-left: 30px;
          margin-top: 0%;
          font-size: 30px;
          display: flex;
@@ -55,6 +59,9 @@
             border-width: 2px;
             margin-top: 20px;
             margin-bottom: 20px;
+            border: 3px solid;
+            padding-top: 2px;
+            padding-bottom: 2px;
         }
         .explor:hover{
             background-color: #59598f;
@@ -62,9 +69,101 @@
         .li{
             margin-right: 20px;
         }
+        .pictur1{
+            margin-top: 20%;
+        }
+        .our-commitment{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #03034a;
+            margin: 0%;
+            padding-top: 40px;
+            color: #ffffff;
+            font-size: 40px;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            justify-content: center;
+            background-color:#03034a;
+            gap: 10px;
+            
+           
+
+        }
+        .item-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 50px;
+        }
+         .item-2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff;
+              padding:50px;
+        }
+         .item-3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff;
+              padding:100px;
+              padding-bottom: 20px;
+        }
+        .p-1{
+            font-size: 50px;
+        }
+        .main-2{
+            background-color: #03034a;
+          
+             display: flex;
+            flex-direction: row;
+            gap: 20%;
+            margin-top:5%;
+        }
+        .p-2{
+            color: #ffffff;
+            margin: 20px;
+            font-size: 50px;
+           
+
+
+        }
+        .text-1{
+            color: #ffffff;
+            margin: 20px;
+            font-size: 20px;
+        }
+        .main-4{
+            display: flex;
+            flex-direction: column;
+        }
+        .main-3{
+            margin-right: 20px;
+        }
+        .car-rim{
+            margin-top: 20%;
+            margin-left: 20px;
+
+        }
+        .our-commitment{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #ffffff;
+            
+            margin-top: 50px;
+        }
+
     </style>
 </head>
 <body class="body">
+   
     <div class="contaner-1">
         <h3 class="heading-1">WIX</h3>
     </div>
@@ -72,13 +171,49 @@
         <div class="ti"><h1 class="heading-2">DRIVE SAFE</h1>
          <p > Protecting Your Journey</p>
          <button class="explor">EXPLOR</button>
-         <img src="images/Welcome_comp-m4ttl6t23.avif" width="100%" height="auto"/>
+         <img class="pictur1" src="images/Welcome_comp-m4ttl6t23.avif" width="50%" height="auto"/>
         </div>
        
         <div class="li"><img class="picture" src="images/im4.avif" width="100%" height="auto"/>
+         
         </div>
         
         
     </div>
+       <div>
+                <h1 class="our-commitment">OUR COMMITMENT</h1>
+            </div>
+            <div class="main">
+                <div class="item-1">
+                    <h1 class="p-1">Policy Options</h1>
+                    <p class="P-1">Policy Options</p>
+
+                </div>
+                <div class="item-2">
+                    <h1 class="p-1">Client Focus</h1>
+                      <p class="P-1">PERSONALIZED SERVICE</p>
+                    
+                </div>
+                <div class="item-3">
+                    <h1 class="p-1">20</h1>
+                    <p class="P-1">YEARS OF EXPERIENCE</p>
+                </div>
+              
+
+
+            </div>
+              <div class="main-2">
+                <div class="main-4">
+                    <h1 class="p-2">About us</h1>
+                    <p class="text-1">Specializing in comprehensive auto insurance, we provide affordable coverage options and personalized service to keep you safe on the road. Our team is here to help you find the policy that fits your lifestyle needs.</p>
+                    <img class="car-rim" src="images/Car Rims.avif" width="65%" height="auto"/>
+                    </div>
+                    <div class="main-3">
+                        <img src="images/car-img.png" width="100%" height="auto"/>
+                    </div>
+                </div>
+                <div class="main-5">
+                    <h1 class="our-commitment">OUR COMMITMENT</h1>
+                </div>
 </body>
 </html>
